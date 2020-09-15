@@ -18,7 +18,7 @@ fun main() {
     curso.professor.fazerChamada(curso.alunos[0], curso.alunos[1], curso.alunos[2])
 
     curso.alunos.forEach {
-        it.fazerLicoesDeCasa(curso.aula[0].materia)
-        it.assistirAulas(curso.aula[0])
+        it.fazerLicoesDeCasa(curso.aulas[0].materia)
+        it.assistirAulas(curso.aulas[0])
     }
 }
