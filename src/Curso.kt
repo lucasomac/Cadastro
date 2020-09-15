@@ -1,2 +1,2 @@
-class Curso {
+class Curso(var nome: String, ) {
 }
