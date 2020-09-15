@@ -1,5 +1,5 @@
 interface Docencia {
-    fun darAulas(aula: Aula)
+    fun darAulas(vararg aulas: Aula)
 
-    fun fazerChamada()
+    fun fazerChamada(vararg alunos : Aluno)
 }
