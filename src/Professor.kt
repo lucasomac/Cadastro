@@ -1,4 +1,4 @@
-class Professor (val rd: Int, var nome: String) : Docencia{
+class Professor(val rd: Int, var nome: String) : Docencia {
     override fun darAulas(vararg aulas: Aula) {
         aulas.forEach {
             println("Dando aula da matéria ${it.materia.nome}, que começa as ${it.horaInicio}" +
@@ -6,10 +6,8 @@ class Professor (val rd: Int, var nome: String) : Docencia{
         }
     }
 
-    override fun fazerChamada(vararg alunos : Aluno) {
+    override fun fazerChamada(vararg alunos: Aluno) {
         println("Fazendo chamada")
         alunos.forEach { println("Chamando ${it.nome} ${it.sobreNome}") }
     }
-
-
 }
